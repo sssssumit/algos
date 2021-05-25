@@ -40,14 +40,14 @@ if(z==f){
 	b[f-1]=a[i];		
 }
 }
-printf("\n CF:  %d \t %d \t %d \n",b[2],b[1],b[0]);
+printf("CF:  %d \t %d \t %d \n",b[2],b[1],b[0]);
 i++;
 }
-printf("\n frame :");	
+printf("frame :");	
 for(i=0;i<f;i++){
-printf("\n b[%d] = %d",i,b[i]); 
+printf("b[%d] = %d",i,b[i]); 
 }
-printf("\n PF = %d ",pf);
-printf("\n Hit = %d ",h);
+printf("PF = %d ",pf);
+printf("Hit = %d ",h);
 printf("\n");
 }
